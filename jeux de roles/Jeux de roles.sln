@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34902.65
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jeux de roles", "Jeux de roles.csproj", "{BD20FD47-7756-4CB2-BB99-72DC0055D641}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD20FD47-7756-4CB2-BB99-72DC0055D641}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD20FD47-7756-4CB2-BB99-72DC0055D641}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD20FD47-7756-4CB2-BB99-72DC0055D641}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD20FD47-7756-4CB2-BB99-72DC0055D641}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A8F3E7A8-7CF8-473B-9A63-9FD50CFFA305}
+	EndGlobalSection
+EndGlobal

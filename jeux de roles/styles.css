@@ -1,0 +1,174 @@
+
+body {
+	background-color: white;
+	width: 1294px;
+	margin: 0 auto;
+}
+
+header {
+	background-color: seagreen;
+	height: 150px;
+	left: 15px;
+	width: 1294px;
+}
+
+div {
+	margin-left: 40px;
+	display: inline-block;
+}
+
+a1 {
+	color: black;
+}
+
+.container {
+	font-family: verdana;
+	font-size: 20px;
+	margin-top: 75px;
+	transform: translateY(-50%);
+	margin-left: 20%;
+}
+
+.container a {
+	display: inline-block;
+	margin-right: 20px;
+	text-decoration: none;
+}
+
+div1 {
+	float: left;
+}
+
+.i1 {
+	position: relative;
+	margin-bottom: auto;
+	margin: 20px 0 0 0;
+	width: 100%;
+	padding: 20px;
+}
+
+p {
+	font-style: italic;
+	padding: 10px 10px 40px 0;
+}
+
+nav {
+	margin-top: 6px;
+	margin-left: 9px;
+}
+
+aside {
+	float: left;
+	width: 20%;
+	height: 600px;
+	margin-top: 0;
+	display: inline-block;
+}
+
+main {
+	width: 80%;
+	height: 587px;
+	display: inline-block;
+	background: url("image_font.png") no-repeat;
+	position:relative;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+}
+
+p {
+	font-family: verdana;
+	font-size: 20px;
+	left: 5px;
+	white-space: pre;
+}
+
+.liste_news {
+	background-color: #addfad;
+	width: 196px;
+	height: 283px;
+	list-style-type: none;
+	margin-top: 0;
+}
+
+.liste_video {
+	background-color: #addfad;
+	width: 196px;
+	height: 285px;
+	list-style-type: none;
+}
+.connection {
+	position: absolute;
+	height: 281px;
+	top: 50%; /* pour centré*/
+	transform: translateY(-50%); /* pour centré*/
+	padding-top: 2rem;
+	width:100%;
+}
+
+.forma_connection {
+	margin-left: 50%; /* pour centré*/
+	transform: translateX(-50%); /* pour centré*/
+	background-color: antiquewhite;
+	overflow: hidden;
+	padding: 1rem 2rem;
+}
+.input {
+	width: 100%;
+	height: 2rem;
+	border: none;
+	overflow: hidden;
+	margin-bottom: 1rem;
+}
+.button {
+	margin-top: 1rem;
+}
+h2 {
+
+}
+.label {
+	display: none;
+}
+
+a {
+	color:white;
+}
+
+footer {
+	top: 800px;
+	margin-top: 16px;
+	left: 15px;
+	width: 1294px;
+	height: 283px;
+	background-color: seagreen;
+	height: 150px;
+	align-items: center;
+}
+
+.cont_img2 {
+	margin-top: 50px;
+	margin-left: 15px;
+	width: 14%;
+}
+
+.mentions_legales {
+	display: inline-block;
+	margin-top: 75px;
+	transform: translateY(-50%);
+	width: 70%;
+	text-align: center;
+}
+
+.reaction {
+	list-style-type: none;
+	margin-top: 46px;
+	display: inline-block;
+	text-decoration: none;
+	width: 14%;
+}
+
+.reaction a {
+	text-decoration: none;
+}

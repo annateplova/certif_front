@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <title>Accés utilisateur</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header id="en_tete">
+        <div1 id="cont_img1" class="cont_img1">
+            <img id="logo" class="i1" src="logo_jeux_role.jpg" alt="Jeux de rôles">
+        </div1>
+        <div id="container" class="container">
+            <a id="lien_accueil" href="Accueil.html">A propos de nous</a>
+            <a id="lien_news" href="News.html">News</a>
+            <a id="lien_photos_videos" href="photos_videos.html">Photos et Vidéos</a>
+            <a id="lien_acces_utilisateur" href="Acces_utilisateur.html">Accés utilisateur</a>
+        </div>
+    </header>
+    <nav>
+        <a1 id="nav_accueil" href="accueil.html">Accueil - </a1>
+        <a1 id="acces_utilisateur" href="Acces utilisateur.html">Acces utilisateur</a1>
+    </nav>
+
+
+    <aside id="menu_gauche">
+        <ul id="liste_nouvelles" class="liste_news">
+            <li id="1er_nouvelle"><a id="lien_nouvelle1" href="#">lien n°1</a></li>
+            <li id="2eme_nouvelle"><a id="lien_nouvelle2" href="#">lien n°2</a></li>
+            <li id="3eme_nouvelle"><a id="lien_nouvelle3" href="#">lien n°3</a></li>
+        </ul>
+        <ul id="liste_videos" class="liste_video">
+            <li id="1er_video_liste">
+                <video id="1er_video" width="180" height="130" controls>
+                    <source id="lien_1er_video" src="https://www.youtube.com/watch?v=8ty5nBqEhog&list=PLcsmUX5-E9ydXkzlbLfjJWcU63kjxtgFV" type="video/mp4">
+                </video>
+            </li>
+            <li id="2eme_video_liste">
+                <video id="2eme_video" width="180" height="130" controls>
+                    <source id="lien_2eme_video" src="https://www.youtube.com/watch?v=RQfOYXF-G7Y&list=PLcsmUX5-E9ydXkzlbLfjJWcU63kjxtgFV&index=3" type="video/mp4">
+                </video>
+            </li>
+        </ul>
+    </aside>
+
+    <main id="main">
+        <form method ="get" action="Accueil.html" id="connection" class="connection">
+            <section id="forma_connection" class="forma_connection">
+                <h2 id="member_login">Member Login</h2>
+                <section id="champ_user_name" class="groupe_form">
+                    <label for="user_name" id="label_user_name" class="label">User Name</label>
+                    <input id="user_name" type="text" name="user_name" class="input" placeholder="Nom utilisateur" />
+                </section>
+                <section id="champ_mot_passe" class="groupe_form">
+                    <label for="mot_passe" id="label_mot_passe" class="label">mot de passe</label>
+                    <input id="mot_passe" type="password" pattern="[a-zA-Z]{0,20}[0-9]{1,9}" title= "20 caractères maximum, avec au moins 1 chiffre." name="mot_passe" class="input" placeholder="Mot de passe" />
+                </section>
+                <section id="section_souvenir" class="groupe_form">
+                    <label for="souvenir" id="label_souvenir" class="label">Se souvenir de moi</label>
+                    <input id="souvenir" type="checkbox" name="souvenir" class="checkbox" />
+
+                    <span>Se souvenir de moi</span>
+                </section>
+                <section id="section_button" class="groupe_form">
+                    <button type="submit" id="button_submit" class="button">Se connecter</button>
+                </section>
+            </section>
+        </form>
+        <script>
+            var form = document.getElementById("connection")
+        </script>
+        <!--<script>
+            user_connection = document.getElementById("connection");
+            var utilisateur = document.getElementById("label_user_name");
+            var utilisateur_mot_passe = document.getElementById("mot_passe");
+            user_connection.addEventListener("submit", envoi);
+
+            function envoi(event) {
+                user_name = utilisateur.value;
+                mot_passe = utilisateur_mot_passe.value;
+                var redirectUrl = 'Accueil.html?user_name=' + encodeURLComportement(user_name) + '&mot_passe='+ encodeURLComportement(mot_passe);
+            }
+
+        </script>-->
+    </main>
+    <footer>
+        <div id="cont_img2" class="cont_img2">-->
+            <img id="logo_bas" class="i2" src="logo_jeux_role.jpg" alt="Jeux de rôles">
+        </div>
+        <a id="lien_mentions" class="mentions_legales" href="#">Mentions légales</a>
+        <div2 id="reaction" class="reaction">
+            <a href="liens_vers_compte_facebook">
+                <img src="facebook.png" alt="Lien Facebook">
+            </a>
+            <a href="liens_vers_compte_instagrame">
+                <img src="instagramme.png" alt="Lien Instagrame">
+            </a>
+        </div2>
+    </footer>
+</body>
+</html>
